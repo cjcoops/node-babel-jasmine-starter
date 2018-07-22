@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node spec/run.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/cjcoops/node-babel-jasmine-starter/issues"
   },
-  "homepage": "https://github.com/cjcoops/node-babel-jasmine-starter#readme"
+  "homepage": "https://github.com/cjcoops/node-babel-jasmine-starter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jasmine": "^3.1.0"
+  }
 }
